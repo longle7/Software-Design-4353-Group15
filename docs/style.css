@@ -244,7 +244,7 @@ ul li a:hover{
 
 /*Controls the creation background position*/
 
-.create{ 
+.create{
   width: 400px;
   height: 250px;
   background: linear-gradient(to top,rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
@@ -285,8 +285,8 @@ ul li a:hover{
   left: 0%;
 }
 
-/* Controls the backgroung of the profile management page */
-.profile{ 
+/* Controls the background of the profile management page */
+.profile{
   width: 400px;
   height: 525px;
   background: linear-gradient(to top,rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
@@ -318,12 +318,26 @@ ul li a:hover{
   outline: none;
 }
 
+.profile select{
+  width: 390px;
+  height: 35px;
+  background: transparent;
+  border: 1px solid #FF8C00;
+  color: white;
+  margin-top: 45px;
+  font-size: 18px;
+}
+
+.profile option{
+  background-color: black;
+}
+
 /* Controls the look of the Fuel Quote Submission */
 .quote {
 	width: 400px;
 	height: 460px;
 	background: linear-gradient(to top,rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
-	position: relative; 
+	position: relative;
 	top: 7%;
 	left: 50%;
 	transform: translateX(-50%);
@@ -405,19 +419,19 @@ ul li a:hover{
 	font-family: sans-serif;
 	color: white;
   }
- 
+
 /*Controls the look of the Fuel Quote history table */
 .history{
 	width: 1200px;
 	height: auto;
 	margin: auto;
-	color: white;	
+	color: white;
 	position: relative;
 	top: 10%;
-	
+
 
 	background: linear-gradient(to top,rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
-	position: relative; 
+	position: relative;
 	top: 7%;
 	left: 35%;
 	transform: translateX(-50%);
