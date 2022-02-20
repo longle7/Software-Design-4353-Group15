@@ -246,7 +246,7 @@ ul li a:hover{
 
 .create{
   width: 400px;
-  height: 250px;
+  height: 300px;
   background: linear-gradient(to top,rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
   position: relative;
   top: 7%;
@@ -362,8 +362,9 @@ ul li a:hover{
 	margin-top: 30px;
 	font-family: sans-serif;
 	content: attr(placeholder) !important;
-    color: #aaa;
+    color: white;
     margin-right: 0.5em;
+    color-scheme: dark;
   }
   input[type="date"]:focus:before,
   input[type="date"]:valid:before {
@@ -399,7 +400,7 @@ ul li a:hover{
   color: #FF8C00;
 }
 
-/* Controls the look of login text inside login button  */
+/* Controls the look of Submit text inside login button  */
 .quote button a{
   text-decoration: none;
   color: black;
@@ -409,7 +410,7 @@ ul li a:hover{
 /* Controls the Deliver Date Box */
 .quote input[type="date"]:before {
     content: attr(placeholder) !important;
-    color: #aaa;
+    color: white;
     margin-right: 0.5em;
   }
 .quote input[type="date"]:focus:before;
