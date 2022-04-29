@@ -1,0 +1,24 @@
+<%- include('./partials/logout.ejs') %>
+<div class="history">		
+  <table>
+    <tr>
+      <th>Gallons Requested</th>
+      <th>Delivery Address</th>
+      <th>Delivery Date</th>
+      <th>Suggested Price</th>
+      <th>Total Amount Due</th>
+    </tr>
+    <tr>
+      <% if (fuelHistory) { %>
+        <% fuelHistory.forEach(function(data) { %>
+        <tr>
+          <td> <%=data.gallons %> </td>
+          <td> <%= address %> </td>
+          <td> <%=data.date %> </td>
+          <td> <%=data.price %> </td>
+          <td> <%=data.total %> </td>
+        </tr>
+      <%  }) } %>
+    </tr>
+  </table>
+</div>
